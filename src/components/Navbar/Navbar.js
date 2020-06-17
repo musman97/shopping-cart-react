@@ -15,7 +15,9 @@ function Navbar(props) {
                     </li>
                     <li>
                         <Link to="/cart">
-                            <i className="material-icons">shopping_cart</i>
+                            <i className="material-icons cart-img">
+                                shopping_cart
+                            </i>
                         </Link>
                     </li>
                 </ul>
